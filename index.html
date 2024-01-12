@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Estagio front end</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="topo">
+        <div class="divLogo">
+            <img src="Logo.png" alt="Logo" class="imgLogo">
+        </div>
+        <a href="#" class="logo">Alexandria</a>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#visao">Visão</a>
+            <a href="#biblioteca">Nossa biblioteca</a>
+            <a href="#contato">Entre em contato</a>
+            <a href="https://github.com/Karllos26/Atividade-SO/"><img src="github-mark-white.png" alt="Repositorio GitHub" class="GIT"></a>
+        </nav>
+        
+    </header>
+
+
+    <section id="home" class="conteudo">
+        <div class="conteudo-principal">
+            <div lass="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Alexandria a biblioteca online</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo">Aprecie nosso acervo de um jeito rápido e fácil.</h2>
+            </div>
+            <img class="conteudo-principal-imagem" src="/Logo-redondo.png" alt="Logo Alexandria">
+        </div>
+        <div class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">Quais os benefícios de usar a Alexandria?</h3>
+            <p class="conteudo-secundario-paragrafo">1. A Alexandria disponibiliza acesso a vários exemplares a um
+                <strong>preço baixo.</strong></p>
+            <p class="conteudo-secundario-paragrafo">2. A primeira com um <strong>serviço de assinatura</strong> de
+                baixa renda do Brasil.</p>
+            <p class="conteudo-secundario-paragrafo">3. Um grande acervo de <strong>livros culturais, nacionais e
+                    estrangeiros</strong>, todos na língua portuguesa.</p>
+        </div>
+    </section>
+
+
+    <section id="visao" class="missao-visao">
+        <section id="visao" class="missao-visao">
+            <div class="container">
+                <button type="button" class="btn btn-primary" data-toggle="popover" data-placement="bottom"
+                    title="Missão"
+                    data-content="Facilitar o acesso à informação e à cultura por meio de uma biblioteca online acessível a todos. Buscamos inspirar a aprendizagem contínua, promovendo a diversidade e a inclusão.">
+                    Missão
+                </button>
+
+                <button type="button" class="btn btn-primary" data-toggle="popover" data-placement="bottom"
+                    title="Visão"
+                    data-content="Tornar-se uma plataforma líder, reconhecida pela qualidade na entrega de conteúdo educativo e cultural, incentivando a descoberta e o compartilhamento de conhecimento em uma comunidade global.">
+                    Visão
+                </button>
+            </div>
+        </section>
+
+
+        <section id="biblioteca">
+            <div class="tituloBiblioteca">
+                <h1 class="acervo">Um pouco do nosso acervo!</h1>
+            </div>
+            <div class="carousel-wrapper">
+
+                <div class="carousel">
+
+
+                    <div class="card" draggable="true">
+                        <div class="card2">
+                            <img class="card2"
+                                src="https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/_043f916aa9efbb0688b45a7b43237130bfcc0a79.jpg"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="card" draggable="true">
+                        <div class="card2">
+                            <img class="card2" src="https://m.media-amazon.com/images/I/41RBd2DvmgL._SY445_SX342_.jpg"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="card" draggable="true">
+                        <div class="card2">
+                            <img class="card2" src="https://m.media-amazon.com/images/I/71KccJk7rsL._SY425_.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card" draggable="true">
+                        <div class="card2">
+                            <img class="card2"
+                                src="https://books.google.com.br/books/publisher/content?id=RcynBAAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U2AD5F6QeMuM5t5EIXIw4ur55mt4Q&w=1280"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="card" draggable="true">
+                        <div class="card2">
+                            <img class="card2" src="https://m.media-amazon.com/images/I/51gzrvHasGL.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card" draggable="true">
+                        <div class="card2">
+                            <img class="card2"
+                                src="https://books.google.com.br/books/publisher/content?id=meg4DwAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U26XInlXU2wCeqUPiSRoHRIbhDS4A&w=1280"
+                                alt="">
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="contato">
+            <form>
+                <div id="form-control" class="form-group">
+                    <label for="exampleInputEmail1">Entre em contato conosco!</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Insira seu melhor Email">
+                    <small id="emailHelp" class="form-text ">Não compartilharemos seu e-mail com mais
+                        ninguém.</small>
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Pergunta</label>
+                    <input type="Text" class="form-control" id="formGroupExampleInput2"
+                        placeholder="Nos mande sua pergunta">
+                </div>
+
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+        <footer class="containerfooter">
+            <div >
+              <div class="row align-items-center">
+                <div >
+                  <img class="logofooter" src="Logo-redondo.png" alt="Logo Alexandria">
+                  <a href="#" class="logo">Alexandria</a>
+                </div>
+
+                <div class="col-md-6 ">
+                  <a href="sobre.html" class="btn btn-primary">Sobre Nós</a>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+</body>
+
+
+</html>
